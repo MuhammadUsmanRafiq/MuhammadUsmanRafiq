@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hybrid Autos Shop</title>
+    <style>
+        body {
+            background-color:white;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        header {
+            background-color: black;
+            text-align: center;
+            padding: 20px ;
+        }
+        h1 {
+            color: white;
+            margin: 0;
+        }
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: gold;
+            border-radius: 10px;
+            padding: 10px;
+        }
+        .logo img {
+            width: 65px;
+            height: 65px;
+        }
+        .search-box-container {
+            display: flex;
+            align-items: center;
+            background-color: white;
+            border-radius: 20px;
+            padding:  10px;
+            border: 2px solid blueviolet;
+        }
+        .search-box {
+            flex: 2;
+            border: none;
+            outline: none;
+            font-size: 16px;
+            padding: 5px;
+        }
+        .search-icon {
+            margin-right: 10px;
+        }
+        .setter ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .setter li {
+            display: inline-block;
+            margin-right: 15px;
+            
+        }
+        .setter a {
+            text-decoration: none;
+            color: #333;
+            font-size: 16px;
+            transition: color 0.3s ease;
+        }
+        .setter a:hover {
+            color:darkblue;
+            display: inline-block;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 20px;
+            padding: 5px;
+        }
+        .gallery img {
+            margin: 5px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Hybrid Autos</h1>
+    </header>
+    <div class="container">
+        <div class="logo">
+            <img src="m5.jpeg" alt="Logo">
+        </div>
+        <div class="search-box-container">
+            <div class="search-icon">
+                <img src="sicon.jpg" alt="Search Icon" width="50",height="50">
+            </div>
+            <input type="text" class="search-box" placeholder="Search">
+        </div>
+        <nav class="setter">
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="Feedback.html">Feedback</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="gallery">
+        <img class="item" src="m1.jpg" alt="Motorcycle image" style="width: 240px;height:180px">
+        <img class="item" src="m2.jpg" alt="Motorcycle image" style="width: 240px;height:180px">
+        <img class="item" src="m3.jpg" alt="Motorcycle image" style="width:240px;height:180px">
+        <img class="item" src="m14.jpg" alt="Motorcycle image" style="width:240px;height:180px">
+        <img class="item" src="m6.jpg" alt="Motorcycle image" style="width:240px;height:180px">
+        <img class="item" src="m7.jpg" alt="Motorcycle image" style="width:240px;height:180px">
+        <img class="item" src="m8.jpg" alt="Motorcycle image" style="width:240px;height:180px">
+        <img class="item" src="m11.jpg" alt="Motorcycle image" style="width:240px;height:180px">
+    </div>
+</body>
+</html>
